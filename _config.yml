@@ -1,24 +1,30 @@
 # general configuration
-url: http://excentris.net
+url: https://lazarvalkov.github.io
 baseurl: ''
 
 # compass configuration
 compass:
   # an avatar or logo (optional)
-  logo: "/images/compass.png"
+  logo: "/images/lv.jpeg"
   # author will appear under the avatar (optional)
-  author: "Compass"
+  author: "Lazar Valkov"
   # tagline will appear under the title (optional)
-  tagline: "The <a href='http://jekyllrb.com'>Jekyll</a> theme for your personal landing page"
+  tagline: "<a href='https://scholar.google.com/citations?user=GMeeGyEAAAAJ'><span class='fa fa-graduation-cap fa-lg main-list-item-icon'></span></a>
+          <a href='https://www.linkedin.com/in/lazar-valkov-ed'><span class='fa fa-linkedin fa-lg main-list-item-icon'></span></a>
+          <a href='/CV_LazarValkov.pdf'><span class='ai ai-cv custom-ai-item main-list-item-icon'></span></a>
+          <a href='mailto:lazarvalkov@gmail.com'><span class='fa fa-envelope fa-lg main-list-item-icon'></span></a>
+          <a href='https://x.com/lazarvalkov'><span class='fa fa-twitter fa-lg main-list-item-icon'></span></a>
+          <a href='https://github.com/LazarValkov'><span class='fa fa-github fa-lg main-list-item-icon'></span></a>
+          "
   # if include_content is true, the contents of the content.html include will be
   # added right above the generated item list, if present
   include_content: true
   # if include_analytics is true, the content of the analytics.html include will
   # be added at the end of the <head> section. You can add your Google Analytics
   # Tracking Code to that file.
-  include_analytics: false
+  include_analytics: true
   # Twitter @username (as defined by the Twitter Card specs)
-  twitter: "compass"
+  twitter: "lazarvalkov"
 
 # exclude
 exclude: ["CNAME", "Gemfile", "Gemfile.lock", "LICENSE", "README.md"]
